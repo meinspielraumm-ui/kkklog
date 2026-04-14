@@ -1,7 +1,7 @@
 'use client'
 import { useState, useEffect, useCallback } from 'react'
-import { supabase } from '@/lib/supabase'
-import type { Trade } from '@/lib/supabase'
+import { supabase } from '../lib/supabase'
+import type { Trade } from '../lib/supabase'
 
 // ── TYPES ────────────────────────────────────────────────
 type CritState = { status: 'pass' | 'fail' | 'neutral'; _ai?: boolean; [key: string]: unknown }
