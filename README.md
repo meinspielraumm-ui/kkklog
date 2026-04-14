@@ -23,6 +23,7 @@ git push -u origin main
 
 ### 3. Vercel 배포
 
+
 1. [vercel.com](https://vercel.com) → **Add New Project**
 2. GitHub repository 선택
 3. **Environment Variables** 에 아래 두 개 추가:
